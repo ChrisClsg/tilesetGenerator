@@ -1,0 +1,33 @@
+{
+  "asset": {
+    "version": "1.1"
+  },
+  "root": {
+    "boundingVolume": {
+      "box": [
+        -3.675591468811035,
+        -8.973930835723877,
+        10.352099895477295,
+        26.61175012588501,
+        0,
+        0,
+        0,
+        22.827332735061646,
+        0,
+        0,
+        0,
+        4.429078102111817
+      ]
+    },
+    "content": {
+      "uri": "universitaetskindergarten.gltf"
+    },
+    "metadata": {
+      "class": "campusElement",
+      "properties": {
+        "buildingId": "universitaetskindergarten"
+      }
+    },
+    "refine": "ADD"
+  }
+}
