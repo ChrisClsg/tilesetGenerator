@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <g transform="translate(0.5, 0.5) scale(1.65)">
+    <polygon points="15,30 30,15 45,30 30,45" fill="#005176"/>
+    <polygon points="15,0 30,15 15,30 0,15" fill="#f78c1f"/>
+    <polygon points="45,0 60,15 45,30 30,15" fill="#ea564f"/>
+    <polygon points="45,30 60,45 45,60 30,45" fill="#3ccffc"/>
+    <polygon points="15,30 30,45 15,60 0,45" fill="#00e03b"/>
+    <!-- Half squares -->
+    <!-- <polygon points="0,15 0,45 15,30" fill="#0168c1"/>
+    <polygon points="15,0 45,0 30,15" fill="#9c27b0"/>
+    <polygon points="60,15 45,30 60,45" fill="#037200"/>
+    <polygon points="15,60 30,45 45,60" fill="#e91e63"/> -->
+  </g>
+</svg>

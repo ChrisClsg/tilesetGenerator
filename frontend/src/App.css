@@ -1,0 +1,151 @@
+#cesium-container {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#container {
+  background-color: rgba(212, 237, 247, .8);
+  color: black;
+  left: 0;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  width: 65%;
+  z-index: 10;
+}
+
+button, input[type="button"] {
+  background-color: #fff;
+  border-color: #005176;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+  display: block;
+  padding: 5px 10px;
+}
+
+button:hover, input[type="button"]:hover {
+  background-color: #005176;
+  color: #fff;
+
+}
+
+h1 {
+  font-size: smaller;
+}
+
+h3 {
+  margin: 1rem 0 .5rem 0;
+}
+
+.input-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: .5rem;
+  width: 100%;
+}
+
+.input-row div {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33%;
+  margin-bottom: .5rem;
+}
+
+.input-row div label {
+  display: inline-block;
+  font-weight: 700;
+  min-width: 22%;
+}
+
+.input-row input {
+  border-color: #005176;
+  border-radius: 3px;
+  border-width: 1px;
+  color: #000;
+  cursor: pointer;
+  margin-right: 1.5rem;
+  max-width: 16rem;
+  padding: 5px 10px;
+}
+
+.models-list-container {
+  margin: .5rem 0;
+  padding: 0;
+}
+
+.models-list-container ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.models-list-container ul li {
+  background-color: transparent;
+  border: 1px solid transparent;
+  display: flex;
+  flex-basis: calc(20% - 20px);
+  flex-direction: column;
+  padding: 8px;
+}
+
+.models-list-container ul li.selected {
+  background-color: lightblue;
+  border: 2px solid #0074d9;
+}
+
+.models-list-container li .model-name {
+  font-weight: bold;
+  margin: 0 auto .25rem auto;
+}
+
+.models-list-container li button {
+  background-color: #398dd7;
+  border: none;
+  border-radius: 0;
+  color: #ffffff;
+  cursor: pointer;
+  margin: .15rem auto 0 auto;
+  padding: 5px 10px;
+  width: 70%;
+}
+
+.models-list-container li button:hover {
+  background-color: #0074d9;
+}
+
+.tg-logo-container {
+  align-items: end;
+  bottom: 0;
+  color: #8e8b8b;
+  display: flex;
+  font-size: .75rem;
+  justify-items: center;
+  left: 0;
+  margin: 1rem;
+  opacity: 80%;
+  position: absolute;
+  z-index: 100;
+}
+
+.tg-logo-container img {
+  margin-right: .3rem;
+}
+
+@media screen and (max-width: 400px) {
+  .models-list-container ul li {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 1000px) {
+  .models-list-container ul li {
+    flex-basis: calc(50% - 20px);
+  }
+}
