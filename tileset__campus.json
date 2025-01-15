@@ -42,6 +42,7 @@
     },
     "children": [
       {
+        "geometricError": 20000,
         "boundingVolume": {
           "box": [
             7.3592634201049805,
