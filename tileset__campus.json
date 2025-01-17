@@ -1,6 +1,7 @@
 {
   "asset": {
-    "version": "1.1"
+    "version": "1.1",
+    "tilesetVersion":	"1.2.3"
   },
   "schema": {
     "id": "cg2metadataV1",
@@ -23,6 +24,7 @@
       }
     }
   },
+  "geometricError": 20000,
   "root": {
     "boundingVolume": {
       "box": [
