@@ -1,0 +1,129 @@
+{
+	"asset":{
+		"generator":"Khronos glTF Blender I/O v3.6.27",
+		"version":"2.0"
+	},
+	"scene":0,
+	"scenes":[
+		{
+			"extras":{
+				"_RNA_UI":{
+					"SRID":{
+						"description":"Map Coordinate Reference System",
+						"default":""
+					},
+					"crs x":{
+						"description":"Scene x origin in CRS space",
+						"default":0.0
+					},
+					"crs y":{
+						"description":"Scene y origin in CRS space",
+						"default":0.0
+					},
+					"longitude":{
+						"description":"Scene origin longitude",
+						"default":0.0,
+						"min":-180.0,
+						"max":180.0
+					},
+					"latitude":{
+						"description":"Scene origin latitude",
+						"default":0.0,
+						"min":-90.0,
+						"max":90.0
+					}
+				},
+				"SRID":"EPSG:25832",
+				"crs x":355043.3351730326,
+				"crs y":5643739.666081983,
+				"longitude":6.937336724035933,
+				"latitude":50.9270588184624
+			},
+			"name":"Scene",
+			"nodes":[
+				0
+			]
+		}
+	],
+	"nodes":[
+		{
+			"mesh":0,
+			"name":"303__4__roof",
+			"translation":[
+				9.64795970916748,
+				12.800000190734863,
+				7.49061918258667
+			]
+		}
+	],
+	"meshes":[
+		{
+			"name":"303__4__outline.001",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":0,
+						"NORMAL":1
+					},
+					"indices":2
+				}
+			]
+		}
+	],
+	"accessors":[
+		{
+			"bufferView":0,
+			"componentType":5126,
+			"count":48,
+			"max":[
+				11.648957252502441,
+				3.4000000953674316,
+				13.035982131958008
+			],
+			"min":[
+				-7.556474685668945,
+				3.200000047683716,
+				-6.085119247436523
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":1,
+			"componentType":5126,
+			"count":48,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":2,
+			"componentType":5123,
+			"count":84,
+			"type":"SCALAR"
+		}
+	],
+	"bufferViews":[
+		{
+			"buffer":0,
+			"byteLength":576,
+			"byteOffset":0,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":576,
+			"byteOffset":576,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":168,
+			"byteOffset":1152,
+			"target":34963
+		}
+	],
+	"buffers":[
+		{
+			"byteLength":1320,
+			"uri":"data:application/octet-stream;base64,sFmLP5qZWUBMucLAsFmLP5qZWUBMucLAsFmLP5qZWUBMucLAIWI6QZqZWUCGQi1AIWI6QZqZWUCGQi1AIWI6QZqZWUCGQi1AhD5AQJqZWUBik1BBhD5AQJqZWUBik1BBhD5AQJqZWUBik1BBpM7xwJqZWUDty4dApM7xwJqZWUDty4dApM7xwJqZWUDty4dAhOEqwJqZWUBsFsy/hOEqwJqZWUBsFsy/hOEqwJqZWUBsFsy/xhEnwJqZWUCkvcW/xhEnwJqZWUCkvcW/xhEnwJqZWUCkvcW/QMD7v5qZWUA0FhTAQMD7v5qZWUA0FhTAQMD7v5qZWUA0FhTA4K8BwJqZWUCWQhfA4K8BwJqZWUCWQhfA4K8BwJqZWUCWQhfAsFmLP83MTEBMucLAsFmLP83MTEBMucLAsFmLP83MTEBMucLAIWI6Qc3MTECGQi1AIWI6Qc3MTECGQi1AIWI6Qc3MTECGQi1AhD5AQM3MTEBik1BBhD5AQM3MTEBik1BBhD5AQM3MTEBik1BBpM7xwM3MTEDty4dApM7xwM3MTEDty4dApM7xwM3MTEDty4dAhOEqwM3MTEBsFsy/hOEqwM3MTEBsFsy/hOEqwM3MTEBsFsy/xhEnwM3MTECkvcW/xhEnwM3MTECkvcW/xhEnwM3MTECkvcW/QMD7v83MTEA0FhTAQMD7v83MTEA0FhTAQMD7v83MTEA0FhTA4K8BwM3MTECWQhfA4K8BwM3MTECWQhfA4K8BwM3MTECWQhfAyE9EvwAAAABUTyS/AAAAAAAAgD8AAACARcsjPwAAAAAFvkS/AAAAAAAAgD8AAACARcsjPwAAAAAFvkS/yE9EPwAAAABUTyQ/RcsjvwAAAAAFvkQ/AAAAAAAAgD8AAACAyE9EPwAAAABUTyQ/yE9EvwAAAABUTyS/RcsjvwAAAAAFvkQ/AAAAAAAAgD8AAACAyE9EvwAAAABUTyS/AAAAAAAAgD8AAACARcsjPwAAAAAFvkS/yE9EvwAAAABUTyS/AAAAAAAAgD8AAACARcsjPwAAAAAFvkS/yE9EvwAAAABUTyS/RcsjvwAAAAAFvkQ/AAAAAAAAgD8AAACAyE9EvwAAAABUTyS/RcsjvwAAAAAFvkQ/AAAAAAAAgD8AAACAyE9EvwAAAABUTyS/AAAAgAAAgL8AAACARcsjPwAAAAAFvkS/AAAAgAAAgL8AAACARcsjPwAAAAAFvkS/yE9EPwAAAABUTyQ/RcsjvwAAAAAFvkQ/AAAAgAAAgL8AAACAyE9EPwAAAABUTyQ/yE9EvwAAAABUTyS/RcsjvwAAAAAFvkQ/AAAAgAAAgL8AAACAyE9EvwAAAABUTyS/AAAAgAAAgL8AAACARcsjPwAAAAAFvkS/yE9EvwAAAABUTyS/AAAAgAAAgL8AAACARcsjPwAAAAAFvkS/yE9EvwAAAABUTyS/RcsjvwAAAAAFvkQ/AAAAgAAAgL8AAACAyE9EvwAAAABUTyS/RcsjvwAAAAAFvkQ/AAAAgAAAgL8AAACABwADAAEAAQAXABQAEAANAAsABwABABQAEAALAAcAFAAQAAcAGQAbAB8AHwAjACUAHwAlACgALAAvABkAHwAoACwAHwAsABkADwASACoADwAqACcABgAKACIABgAiAB4AEwAWAC4AEwAuACsACQAMACQACQAkACEAAgAEABwAAgAcABoAFQAAABgAFQAYAC0ADgARACkADgApACYABQAIACAABQAgAB0A"
+		}
+	]
+}
