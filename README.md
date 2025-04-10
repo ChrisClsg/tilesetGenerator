@@ -1,4 +1,8 @@
-<img src="./frontend/public/tileset-generator.svg" alt="tilsetGenerator" width="100"/>
+<div>
+  <img align="left" alt="tilsetGenerator" src="./frontend/public/tileset-generator.svg" width="100"/>
+  <a href="https://doi.org/10.5281/zenodo.15189767" style="margin-top: auto"><img align="right" alt="DOI" src="https://zenodo.org/badge/DOI/10.5281/zenodo.15189767.svg"></a>
+  <br clear="all">
+</div>
 
 # tilesetGenerator
 The tilesetGenerator is a WebGIS-App to georeference 3D building models and create 3D Tiles tilesets. It was developed
